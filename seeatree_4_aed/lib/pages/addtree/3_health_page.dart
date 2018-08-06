@@ -1,3 +1,14 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Health Status
+Purpose: 
+- Displays various traits of a tree's condition.
+- Depending on selected checkboxes, decides upon the current health condition of the tree.
+- Redirects to pages: Landmark Status.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

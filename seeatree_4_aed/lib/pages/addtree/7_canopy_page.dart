@@ -1,3 +1,14 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Canopy Status
+Purpose: 
+- Displays relative images for canopy.
+- Acquires canopy input from user.
+- Redirects to pages: Size Status.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

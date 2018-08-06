@@ -1,3 +1,13 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Rules
+Purpose: 
+- Outlines guidelines for a Veteran or Significant Tree submission.
+- Redirects to: several indepth pages on specific traits, Health Status.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

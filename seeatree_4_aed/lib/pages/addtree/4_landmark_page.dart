@@ -1,3 +1,14 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Landmark Status
+Purpose: 
+- Displays aspects for a landmark status.
+- Acquires yes/no input from user.
+- Redirects to pages: Landmark Info, Size Status.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

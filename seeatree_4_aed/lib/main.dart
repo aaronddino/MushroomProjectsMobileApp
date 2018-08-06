@@ -1,6 +1,15 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Main
+Purpose: 
+- Executes the app and runs the main function. 
+- Page Navigation links are directed here.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:map_view/map_view.dart';
-
 
 import 'package:seeatree_4_aed/widgets.dart';
 import 'package:seeatree_4_aed/homepage.dart';
@@ -18,14 +27,16 @@ import 'package:seeatree_4_aed/pages/addtree/11_habitat_page.dart';
 import 'package:seeatree_4_aed/pages/mytrees/1_my_trees_page.dart';
 import 'package:seeatree_4_aed/pages/community/1_community_page.dart';
 import 'package:seeatree_4_aed/pages/mytrees/view_map.dart';
+import 'package:seeatree_4_aed/loginpage.dart'; 
 
-var apiKey = "AIzaSyDucS7D6juKmIEerpH7kKvbqnbyn9QiWd4";
+var apiKey = "";
 
 void main(){
   MapView.setApiKey(apiKey);
   runApp(new MaterialApp(
-    home: new HomePage(),
+    home: new LoginPage(),
     routes: <String, WidgetBuilder>{
+      "/HomePage": (BuildContext context) => new HomePage(),
       "/AddTree": (BuildContext context) => new AddTreePage(),
       "/MyTrees": (BuildContext context) => new MyTreesPage(),
       "/Community": (BuildContext context) => new CommunityTreesPage(),

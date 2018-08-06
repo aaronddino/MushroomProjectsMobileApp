@@ -3,7 +3,7 @@ import 'package:seeatree_4_aed/widgets.dart';
 import 'package:map_view/map_view.dart';
 //import 'dart:async';
 
-var apiKey = "AIzaSyDucS7D6juKmIEerpH7kKvbqnbyn9QiWd4";
+var apiKey = "";
 
 class ViewMapPage extends StatefulWidget{
   @override

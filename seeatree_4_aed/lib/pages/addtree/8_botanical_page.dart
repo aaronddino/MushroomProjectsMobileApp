@@ -1,3 +1,14 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Botanical Status
+Purpose: 
+- Displays aspects for a botanical status.
+- Acquires yes/no input from user.
+- Redirects to pages: Botanical Info, Historical Status.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

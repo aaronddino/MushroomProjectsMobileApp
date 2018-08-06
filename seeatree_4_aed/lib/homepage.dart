@@ -1,3 +1,13 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Home
+Purpose: 
+- Home Page of the app
+- Redirects to pages: Add Tree, My Trees, Community.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

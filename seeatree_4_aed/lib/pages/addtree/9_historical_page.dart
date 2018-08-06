@@ -1,3 +1,14 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Historical Status
+Purpose: 
+- Displays aspects for a historical status.
+- Acquires yes/no input from user.
+- Redirects to pages: Historical Info, Shape Status.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

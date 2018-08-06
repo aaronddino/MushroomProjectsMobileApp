@@ -1,9 +1,19 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Community
+Purpose: 
+- Lists recent trees submitted by the community, ordered by most recent.
+- Allows google maps view to display recent trees submitted by community.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 import 'package:map_view/map_view.dart';
 //import 'dart:async';
 
-var apiKey = "AIzaSyDucS7D6juKmIEerpH7kKvbqnbyn9QiWd4";
+var apiKey = "";
 
 class CommunityTreesPage extends StatefulWidget{
   @override

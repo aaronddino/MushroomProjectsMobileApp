@@ -1,3 +1,14 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Girth Status
+Purpose: 
+- Displays relative images for girth.
+- Acquires girth input from user.
+- Redirects to pages: Canopy Status.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 

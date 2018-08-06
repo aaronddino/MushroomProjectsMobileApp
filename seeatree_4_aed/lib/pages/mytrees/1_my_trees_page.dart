@@ -1,9 +1,19 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: My Trees
+Purpose: 
+- Lists all trees submitted by user, ordered by most recent.
+- Allows google maps view to display all trees submitted by user.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 import 'package:map_view/map_view.dart';
 //import 'dart:async';
 
-var apiKey = "AIzaSyDucS7D6juKmIEerpH7kKvbqnbyn9QiWd4";
+var apiKey = "";
 
 class MyTreesPage extends StatefulWidget{
   @override
@@ -16,6 +26,26 @@ class MyTreesState extends State<MyTreesPage>{
   var staticMapProvider = new StaticMapProvider(apiKey);
   Uri staticMapUri;
 
+  List<Marker> markers = <Marker>[
+    new Marker("1", "Home", -27.340060, 153.038300,
+    color: Colors.green[200], markerIcon: new MarkerIcon(
+        "assets/tree1.png", //Asset to be used as icon
+        width: 100.0, //New width for the asset
+        height: 100.0, // New height for the asset
+    )), 
+    new Marker("2", "Some Place", -27.339524, 153.039460, color: Colors.green[200], 
+    markerIcon: new MarkerIcon("assets/Shape.png", width: 100.0, height: 100.0)),
+    new Marker("3", "Some Place", -27.341278, 153.039535, color: Colors.green[200], 
+    markerIcon: new MarkerIcon("assets/Shape.png", width: 100.0, height: 100.0)),
+  ];
+
+  Marker x = new Marker("1", "Home", -27.340060, 153.038300,
+    color: Colors.green[200], markerIcon: new MarkerIcon(
+        "assets/tree1.png", //Asset to be used as icon
+        width: 112.0, //New width for the asset
+        height: 75.0, // New height for the asset
+      ));
+  
   showMap(){
     mapView.show(
       new MapOptions(
@@ -25,6 +55,15 @@ class MyTreesState extends State<MyTreesPage>{
         title: "My Tree Locations",
       )
     );
+    mapView.setMarkers(markers);
+    mapView.zoomToFit(padding: 100);
+
+    mapView.onMapReady.listen((_){
+      setState(() {
+        mapView.setMarkers(markers);
+        mapView.zoomToFit(padding: 100);
+      });
+    });
   }
 
   @override

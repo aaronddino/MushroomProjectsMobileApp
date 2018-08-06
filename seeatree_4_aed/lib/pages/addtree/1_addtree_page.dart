@@ -1,3 +1,14 @@
+/*
+-See A Tree Citizen Science Project App
+- Aarond Dino
+
+Page: Add Tree
+Purpose: 
+- Displays instructions for optimal tree photo submission.
+- Opens camera feature to take a photo of a tree.
+- Redirects to pages: Rules.
+*/
+
 import 'package:flutter/material.dart';
 import 'package:seeatree_4_aed/widgets.dart';
 
