@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "676925089876",
+    "firebase_url": "https://mushroom-projects-see-a-tree.firebaseio.com",
+    "project_id": "mushroom-projects-see-a-tree",
+    "storage_bucket": "mushroom-projects-see-a-tree.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676925089876:android:5ffc5064850fbcc5",
+        "android_client_info": {
+          "package_name": "com.example.seeatree4aed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676925089876-nsfrgcdo6r3o16cg3j5gbb0kje44qhbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCCb9y0sQRByYANjjSDqHfGwK35XSEAhw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

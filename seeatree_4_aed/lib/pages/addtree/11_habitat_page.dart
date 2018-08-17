@@ -6,7 +6,7 @@ Page: Habitat Status
 Purpose: 
 - Displays aspects for a habitat status.
 - Acquires yes/no input from user.
-- Redirects to pages: Habitat Info, Species Match.
+- Redirects to pages: Habitat Info, Species Page.
 */
 
 import 'package:flutter/material.dart';
@@ -46,19 +46,19 @@ class HabitatStatusPage extends StatelessWidget{
               new TextButton(
                 text: "Yes",
                 color: Colors.lightGreenAccent,
-                nextpage: "/NameofSpecies",
+                nextpage: "/Species",
               ),
               new TextButton(
                 text: "No",
                 color: Colors.redAccent,
-                nextpage: "/NameofSpecies",
+                nextpage: "/Species",
               ),
             ],
           ),
           new TextButton(
             text: "I'm not sure",
             color: Colors.white,
-            nextpage: "/NameofSpecies",
+            nextpage: "/Species",
           ),
       ],)
     );

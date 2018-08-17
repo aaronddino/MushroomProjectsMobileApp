@@ -24,12 +24,17 @@ import 'package:seeatree_4_aed/pages/addtree/8_botanical_page.dart';
 import 'package:seeatree_4_aed/pages/addtree/9_historical_page.dart';
 import 'package:seeatree_4_aed/pages/addtree/10_shape_page.dart';
 import 'package:seeatree_4_aed/pages/addtree/11_habitat_page.dart';
+import 'package:seeatree_4_aed/pages/addtree/12_species_page.dart';
 import 'package:seeatree_4_aed/pages/mytrees/1_my_trees_page.dart';
 import 'package:seeatree_4_aed/pages/community/1_community_page.dart';
 import 'package:seeatree_4_aed/pages/mytrees/view_map.dart';
 import 'package:seeatree_4_aed/loginpage.dart'; 
+//info_pages
+import 'package:seeatree_4_aed/pages/information/landmark_info_page.dart';
+import 'package:seeatree_4_aed/pages/information/shape_info_page.dart';
+import 'package:seeatree_4_aed/pages/information/rare_info_page.dart';
 
-var apiKey = "";
+var apiKey = "AIzaSyDG7K0hQsak5XiJQmky627NprbaB61QJwo";
 
 void main(){
   MapView.setApiKey(apiKey);
@@ -50,8 +55,12 @@ void main(){
       "/HistoricalStatus": (BuildContext context) => new HistoricalStatusPage(),
       "/ShapeStatus": (BuildContext context) => new ShapeStatusPage(),
       "/HabitatStatus": (BuildContext context) => new HabitatStatusPage(),
-      "/NameofSpecies": (BuildContext context) => new NameofSpeciesPage(),
+      "/Species": (BuildContext context) => new SpeciesPage(),
       "/ViewMap": (BuildContext context) => new ViewMapPage(),
+      //info screens
+      "/LandmarkInfo": (BuildContext context) => new LandmarkInfoPage(),
+      "/ShapeInfo": (BuildContext context) => new ShapeInfoPage(),
+      "/RareInfo": (BuildContext context) => new RareInfoPage(),
     }
   ));
 }

@@ -13,7 +13,7 @@ import 'package:seeatree_4_aed/widgets.dart';
 import 'package:map_view/map_view.dart';
 //import 'dart:async';
 
-var apiKey = "";
+var apiKey = "AIzaSyDG7K0hQsak5XiJQmky627NprbaB61QJwo";
 
 class MyTreesPage extends StatefulWidget{
   @override
@@ -92,6 +92,10 @@ class MyTreesState extends State<MyTreesPage>{
                   onTap: showMap,
               ),
               new Text("View Map"),
+              new RaisedButton(
+                child: new Text("My Map"),
+                onPressed: showMap,
+              ),
               ],
             ),
           ),
