@@ -33,7 +33,6 @@ class LandmarkInfoPage extends StatelessWidget{
               ],
             ),
           ),
-
         ],
       ),
     );

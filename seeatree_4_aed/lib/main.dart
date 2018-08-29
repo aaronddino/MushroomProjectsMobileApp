@@ -33,7 +33,10 @@ import 'package:seeatree_4_aed/loginpage.dart';
 import 'package:seeatree_4_aed/pages/information/landmark_info_page.dart';
 import 'package:seeatree_4_aed/pages/information/shape_info_page.dart';
 import 'package:seeatree_4_aed/pages/information/rare_info_page.dart';
-
+import 'package:seeatree_4_aed/pages/information/leaves_info_page.dart';
+import 'package:seeatree_4_aed/pages/information/historic_info_page.dart';
+import 'package:seeatree_4_aed/pages/information/hollow_trunk_info_page.dart';
+import 'package:seeatree_4_aed/pages/information/wide_trunk_info_page.dart';
 var apiKey = "AIzaSyDG7K0hQsak5XiJQmky627NprbaB61QJwo";
 
 void main(){
@@ -61,6 +64,12 @@ void main(){
       "/LandmarkInfo": (BuildContext context) => new LandmarkInfoPage(),
       "/ShapeInfo": (BuildContext context) => new ShapeInfoPage(),
       "/RareInfo": (BuildContext context) => new RareInfoPage(),
+      "/LackLeavesInfo": (BuildContext context) => new LackLeavesInfoPage(),
+      "/HollowTrunkInfo": (BuildContext context) => new HollowInfoPage(),
+      "/WideTrunkInfo": (BuildContext context) => new WideTrunkInfoPage(),
+      "/HistoricInfo": (BuildContext context) => new HistoricInfoPage(),
+      //
+      //
     }
   ));
 }

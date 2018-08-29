@@ -21,7 +21,7 @@ class AddTreePage extends StatelessWidget{
       body: new Container(
         child: new Center(
           child: new Column(
-            //crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               new Text("Upload at Least One Image That:", style: new TextStyle(fontSize: 20.0), textAlign: TextAlign.center,),
